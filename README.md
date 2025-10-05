@@ -51,7 +51,7 @@ Configured via YAML to specify map frame, update frequency, and optimization par
 
 ---
 
-### 🤖 `Nav2` — Autonomous Navigation Stack
+### `Nav2` — Autonomous Navigation Stack
 **Inputs:** `/map`, `/amcl_pose` (or fused `/odom`), `/scan` (for costmaps)  
 **Outputs:** `/cmd_vel` (used by `cmd_vel_to_wheels` for execution)
 
