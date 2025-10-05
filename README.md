@@ -10,9 +10,8 @@ The system enables both manual and autonomous control, real-time mapping using *
 The project integrates custom ROS 2 nodes for holonomic drive control, odometry publishing, mapping, and navigation:
 1. **cmd_vel_to_wheels** – converts `/cmd_vel` into individual wheel velocities.  
 2. **omni_odometry** – estimates robot pose (`/odom`) from wheel encoders.  
-3. **robot_localization** – optionally fuses IMU + odometry data via an EKF.  
-4. **slam_toolbox** – performs 2D SLAM and builds occupancy grid maps.  
-5. **Nav2** – handles global path planning, local obstacle avoidance, and navigation goals.
+3. **slam_toolbox** – performs 2D SLAM and builds occupancy grid maps.  
+4. **Nav2** – handles global path planning, local obstacle avoidance, and navigation goals.
 
 ---
 ##  Nodes & Responsibilities
@@ -40,9 +39,6 @@ Publishes the `/odom` topic and broadcasts the TF transform `odom → base_link`
 Includes optional covariance estimation for integration with EKF.
 
 ---
-
----
-
 ### `slam_toolbox` — Online Mapping
 **Inputs:** `/scan` (`sensor_msgs/LaserScan`), `/odom` (`nav_msgs/Odometry`), TF (`odom → base_link`)  
 **Outputs:** `/map` (`nav_msgs/OccupancyGrid`), 
