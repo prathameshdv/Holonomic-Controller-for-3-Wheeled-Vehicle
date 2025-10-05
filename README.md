@@ -24,8 +24,8 @@ The project integrates custom ROS 2 nodes for holonomic drive control, odometry 
 Converts `vx`, `vy`, and `wz` (Twist) into per-wheel velocities using the standard 3-wheel holonomic kinematic matrix.  
 Implements velocity limits and acceleration (slew) limiting for smooth motion control.
 
- **Source:**  
-[cmd_vel_to_wheels.py](https://github.com/prathameshdv/Holonomic-Drive-Control-and-Autonomous-SLAM/blob/main/src/cmd_vel_to_wheels.py)
+ 
+[cmd_vel_to_wheels.py]([https://github.com/prathameshdv/Holonomic-Drive-Control-and-Autonomous-SLAM/blob/main/src/cmd_vel_to_wheels.py](https://github.com/prathameshdv/Holonomic-Controller-for-3-Wheeled-Vehicle/blob/main/cmd_vel_to_wheels.py))
 
 ---
 
