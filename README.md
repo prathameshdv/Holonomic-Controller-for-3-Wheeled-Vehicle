@@ -25,7 +25,8 @@ Converts `vx`, `vy`, and `wz` (Twist) into per-wheel velocities using the standa
 Implements velocity limits and acceleration (slew) limiting for smooth motion control.
 
  
-[cmd_vel_to_wheels.py]([https://github.com/prathameshdv/Holonomic-Drive-Control-and-Autonomous-SLAM/blob/main/src/cmd_vel_to_wheels.py](https://github.com/prathameshdv/Holonomic-Controller-for-3-Wheeled-Vehicle/blob/main/cmd_vel_to_wheels.py))
+[cmd_vel_to_wheels.py](https://github.com/prathameshdv/Holonomic-Controller-for-3-Wheeled-Vehicle/blob/main/cmd_vel_to_wheels.py)
+
 
 ---
 
